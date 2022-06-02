@@ -22,7 +22,7 @@ int main(int argc, char ** argv) {
                 return 0;
         }
         else {
-                printf("Ishenko is dropping semaphore...\n");
+                printf("Kanarskiy is dropping semaphore...\n");
                 if( (sem = sem_open(SEMAPHORE_NAME, 0)) == SEM_FAILED ) {
                         fprintf(stderr, "sem_open ERROR");
                         return 1;
